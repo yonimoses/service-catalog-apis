@@ -1,0 +1,65 @@
+[
+  {
+    "hostname": "pbxkubeapp01",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Kubernetes",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "pbxkubeapp02",
+    "ipaddress": "187.122.11.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Kubernetes",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xxx4",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Artifactory",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xxx1",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Artifactory",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xxx2",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xxx6",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xxx9",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Atlassian",
+    "storage": "100",
+    "products": []
+  }
+]

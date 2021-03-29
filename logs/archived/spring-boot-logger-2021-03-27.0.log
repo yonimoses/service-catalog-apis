@@ -1,0 +1,40 @@
+2021-03-27 23:22:44,900 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-27 23:22:44,910 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-27 23:22:54,727 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 11.0.6 on i-mb-0038-yonim with PID 12570 (/Users/iwu/micrometer-demo/target/classes started by iwu in /Users/iwu/micrometer-demo)
+2021-03-27 23:22:54,731 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-27 23:22:55,813 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-27 23:22:55,820 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-27 23:22:55,821 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-27 23:22:55,821 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-27 23:22:55,893 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-27 23:22:55,894 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1107 ms
+2021-03-27 23:22:56,220 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-27 23:22:56,497 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-27 23:22:56,502 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-27 23:22:56,529 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-27 23:22:56,551 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-27 23:22:56,569 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.384 seconds (JVM running for 3.676)
+2021-03-27 23:22:56,884 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-172.20.10.2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-27 23:22:56,884 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-172.20.10.2] Initializing Servlet 'dispatcherServlet'
+2021-03-27 23:22:56,885 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-172.20.10.2] Completed initialization in 0 ms
+2021-03-27 23:34:33,930 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-27 23:34:33,933 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-27 23:34:41,803 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 11.0.6 on i-mb-0038-yonim with PID 12913 (/Users/iwu/micrometer-demo/target/classes started by iwu in /Users/iwu/micrometer-demo)
+2021-03-27 23:34:41,805 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-27 23:34:42,659 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-27 23:34:42,665 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-27 23:34:42,666 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-27 23:34:42,666 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-27 23:34:42,726 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-27 23:34:42,726 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 885 ms
+2021-03-27 23:34:43,003 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-27 23:34:43,265 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-03-27 23:34:43,271 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-27 23:34:43,303 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-27 23:34:43,322 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-27 23:34:43,338 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 1.824 seconds (JVM running for 7.6)
+2021-03-27 23:34:43,533 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-172.20.10.2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-27 23:34:43,534 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-172.20.10.2] Initializing Servlet 'dispatcherServlet'
+2021-03-27 23:34:43,535 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-172.20.10.2] Completed initialization in 1 ms
+2021-03-27 23:44:48,996 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-03-27 23:44:48,998 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

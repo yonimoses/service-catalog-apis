@@ -1,0 +1,58 @@
+[
+  {
+    "pretty_name" : "Artifactory",
+    "service_name" : "artifactory",
+    "unit_price" : 8,
+    "help" : "1G of storage"
+
+  },
+  {
+    "pretty_name" : "Openshift CPU",
+    "service_name" : "openshift_cpu",
+    "unit_price" : 1000,
+    "help" : "1 vCPU"
+
+  },
+  {
+    "pretty_name" : "Openshift Memory",
+    "service_name" : "openshift_mem",
+    "unit_price" : 600,
+    "help" : "1G of memory"
+
+  },
+  {
+    "pretty_name" : "Openshift Storage",
+    "service_name" : "openshift_storage",
+    "unit_price" : 8,
+    "help" : "1G of storage"
+
+  },
+  {
+    "pretty_name" : "SonarQube",
+    "service_name" : "sonar",
+    "unit_price" : 0.3,
+    "help" : "Line of code"
+
+  },
+  {
+    "pretty_name" : "Bitbucket",
+    "service_name" : "bitbucket",
+    "unit_price" : 0.8,
+    "help" : "Code contributor"
+
+  },
+  {
+    "pretty_name" : "Snyk",
+    "service_name" : "snyk",
+    "unit_price" : 520,
+    "help" : "Code contributor"
+
+  },
+  {
+    "pretty_name" : "Checkmarx",
+    "service_name" : "checkmarx",
+    "unit_price" : 200,
+    "help" : "Code contributor"
+
+  }
+]

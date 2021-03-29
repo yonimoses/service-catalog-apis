@@ -1,0 +1,62 @@
+[
+  {
+    "aris": "1",
+    "title": "CLoudvision",
+    "code": "XV",
+    "owner_name": "Yoni Moses",
+    "owner_email": "yoni.mozes@poalin.co.il",
+    "service_domains": {
+      "names" : [
+        "atm-switch",
+        "bit"
+      ],
+      "namespaces": [
+        "atm-switch-dev-default",
+        "atm-switch-dev-main"
+      ]
+    },
+    "usage": {
+      "sonar": 2000010  ,
+      "bitbucket": 12,
+      "snyk": 12,
+      "checkmarx": 12,
+      "artifactory": 204,
+      "openshift_cpu": 4,
+      "openshift_mem": 12,
+      "openshift_storage": 1400
+    }
+  },
+  {
+    "aris": "2",
+    "title": "ATM",
+    "code": "ATM",
+    "owner_name": "Yoni Moses",
+    "owner_email": "yoni.mozes@poalin.co.il",
+    "service_domains": {
+      "names" : [
+        "atm-switch",
+        "aaa-switch",
+        "bbb-switch",
+        "atm-switch",
+        "bit"
+      ],
+      "deployments": [
+        "atm-switch-dev1-default",
+        "atm-switch-dev2-default",
+        "atm-switch-dev3-default",
+        "atm-switch-dev4-default",
+        "atm-switch-dev-main"
+      ]
+    },
+    "usage": {
+      "sonar": 12367432,
+      "bitbucket": 15,
+      "snyk": 15,
+      "checkmarx": 15,
+      "artifactory": 40,
+      "openshift_cpu": 4,
+      "openshift_mem": 12,
+      "openshift_storage": 1400
+    }
+  }
+]
