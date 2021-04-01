@@ -44,7 +44,7 @@ public class ServerController {
 //        osClient = new DefaultOpenShiftClient(config);
 
 
-    @GetMapping("/servers/list")
+    @GetMapping("/server/list")
     public List<Server> getServers() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("servers.json").getInputStream()), List.class);

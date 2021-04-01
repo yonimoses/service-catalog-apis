@@ -1,0 +1,38 @@
+[
+  {
+    "cpu": "8",
+    "memory": "8",
+    "storage": "10",
+    "env": "preprod"
+  },
+  {
+    "cpu": "8",
+    "memory": "8",
+    "storage": "10",
+    "env": "dev"
+  },
+  {
+    "cpu": "8",
+    "memory": "8",
+    "storage": "10",
+    "env": "dev"
+  },
+  {
+    "cpu": "8",
+    "memory": "8",
+    "storage": "10",
+    "env": "prod"
+  },
+  {
+    "cpu": "8",
+    "memory": "8",
+    "storage": "10",
+    "env": "dev"
+  },
+  {
+    "cpu": "8",
+    "memory": "8",
+    "storage": "10",
+    "env": "staging"
+  }
+]

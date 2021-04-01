@@ -1,300 +1,106 @@
 [
   {
-    "domain_name": "atm-switch",
-    "domain_repo_name": "bbb",
-    "group_email": "b@poalim.co.il",
-    "owner_email": "b@poalim.co.il",
-    "owner_name": "Yoni moses",
-    "system_aris": 12345,
-    "system_name_aris": "Aris #1",
-    "repos": [
-      "url 1",
-      "url 2",
-      "url 3"
-    ],
-    "groups": [
-      "ldap1",
-      "ldap2",
-      "ldap2"
-    ],
-    "source_project": "TD",
-    "source_address": "asdasdk",
-    "projects": [
-      "SOME URL"
-    ],
-    "system_aris_description": "ddd",
-    "system_aris_title": "Current Account",
-    "envs": {
-      "dev": {
-        "quota": {
-          "spec": {
-            "quota": {
-              "hard": {
-                "requests": {
-                  "cpu": 1.0,
-                  "memory": "3Gi"
-                }
-              }
-            }
-          }
-        },
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "prod": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "preprod": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "staging": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      }
-    },
-    "namespaces": [
-      "ccc-dev-main",
-      "ccc-staging-main",
-      "ccc-preprod-main",
-      "ccc-prod-main"
-    ],
-    "clusters": [
-      "aaa",
-      "bbbk"
-    ],
-    "links": {
-      "grafana": [
-        "some link 1",
-        "some link 2"
-      ],
-      "bitbucket": [
-        "some link 1",
-        "some link 2"
-      ],
-      "jira": [],
-      "sonarqube": [],
-      "ocp": [
-        "aaa:8443/console/project/ccc-dev-main",
-        "aaa:8443/console/project/ccc-staging-main",
-        "bbbk/console/project/ccc-preprod-main",
-        "bbbk:8443/console/project/ccc-prod-main"
-      ]
-    }
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
   },
   {
-    "domain_name": "bitconsent",
-    "domain_repo_name": "ccc",
-    "group_email": "a@poalim.co.il",
-    "owner_email": "a@poalim.co.il",
-    "owner_name": "Some owner",
-    "system_aris": 123,
-    "system_name_aris": "adasd",
-    "repos": [
-      "url 1",
-      "url 2",
-      "url 3"
-    ],
-    "groups": [
-      "ldap6",
-      "ldap9",
-      "ldapsdasdlkjdh3"
-    ],
-    "source_project": "TD",
-    "source_address": "asdasdk",
-    "projects": [
-      "SOME URL"
-    ],
-    "system_aris_description": "ddd",
-    "system_aris_title": "Current Account",
-    "envs": {
-      "dev": {
-        "quota": {
-          "spec": {
-            "quota": {
-              "hard": {
-                "requests": {
-                  "cpu": 1.0,
-                  "memory": "3Gi"
-                }
-              }
-            }
-          }
-        },
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "prod": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "preprod": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "staging": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      }
-    },
-    "namespaces": [
-      "ccc-dev-main",
-      "ccc-staging-main",
-      "ccc-staging-dddd",
-      "ccc-preprod-main",
-      "ccc-prod-main"
-    ],
-    "clusters": [
-      "aaa",
-      "bbbk"
-    ],
-    "links": {
-      "grafana": [
-        "some link 1",
-        "some link 2"
-      ],
-      "bitbucket": [
-        "some link 1",
-        "some link 2"
-      ],
-      "jira": [],
-      "sonarqube": [],
-      "ocp": [
-        "aaa:8443/console/project/ccc-dev-main",
-        "aaa:8443/console/project/ccc-staging-main",
-        "bbbk/console/project/ccc-preprod-main",
-        "bbbk:8443/console/project/ccc-prod-main"
-      ]
-    }
+    "dns": "dns1",
+    "env": "prod",
+    "name": "name1",
+    "address": "localhost:1203"
   },
   {
-    "domain_name": "card-operator",
-    "domain_repo_name": "operator",
-    "group_email": "d@poalim.co.il",
-    "owner_email": "d@poalim.co.il",
-    "owner_name": null,
-    "system_aris": 1234,
-    "system_name_aris": "Aris #2",
-    "repos": [
-      "url 1",
-      "url 2",
-      "url 3"
-    ],
-    "groups": [
-      "Xb1djasfhf",
-      "asdasdasdasdasd",
-      ";ashkdshjhsfh"
-    ],
-    "source_project": "TD",
-    "source_address": "asdasdk",
-    "projects": [
-      "SOME URL"
-    ],
-    "system_aris_description": "ddd",
-    "system_aris_title": "Current Account",
-    "envs": {
-      "dev": {
-        "quota": {
-          "spec": {
-            "quota": {
-              "hard": {
-                "requests": {
-                  "cpu": 1.0,
-                  "memory": "3Gi"
-                }
-              }
-            }
-          }
-        },
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "prod": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "preprod": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      },
-      "staging": {
-        "quota": {},
-        "environments": [
-          {
-            "name": "main"
-          }
-        ]
-      }
-    },
-    "namespaces": [
-      "ccc-dev-main",
-      "ccc-staging-main",
-      "ccc-preprod-main",
-      "ccc-prod-main"
-    ],
-    "clusters": [
-      "aaa",
-      "bbbk"
-    ],
-    "links": {
-      "grafana": [
-        "some link 1",
-        "some link 2"
-      ],
-      "bitbucket": [
-        "some link 1",
-        "some link 2"
-      ],
-      "jira": [],
-      "sonarqube": [],
-      "ocp": [
-        "aaa:8443/console/project/ccc-dev-main",
-        "aaa:8443/console/project/ccc-staging-main",
-        "bbbk/console/project/ccc-preprod-main",
-        "bbbk:8443/console/project/ccc-prod-main"
-      ]
-    }
+    "dns": "dns1",
+    "env": "prod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "staging",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "staging",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "staging",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+{
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+
+  {
+    "dns": "dns1",
+    "env": "prod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "dev",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "dev",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "dev",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "dev",
+    "name": "name1",
+    "address": "localhost:1203"
   }
+
 ]

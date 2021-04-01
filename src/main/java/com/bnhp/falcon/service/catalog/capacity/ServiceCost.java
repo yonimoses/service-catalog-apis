@@ -6,6 +6,7 @@ import lombok.Data;
 public class ServiceCost {
 
     private String serviceName;
+    private String serviceType;
     private String prettyName;
     private String help;
     private float quantity;

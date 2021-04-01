@@ -9,6 +9,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
@@ -39,6 +40,17 @@ public class ServiceDomainController {
     public List<HashMap> getServers() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
        return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("service-domain.json").getInputStream()), List.class);
+    }
+    @GetMapping("/service-domain/network/{name}")
+    public List<HashMap> getNetworkForServiceDomain(@PathVariable String name) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+       return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("service-domain-network.json").getInputStream()), List.class);
+    }
+
+    @GetMapping("/service-domain/quota/{name}")
+    public List<HashMap> getQuotaForServiceDomain(@PathVariable String name) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+       return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("service-domain-quota.json").getInputStream()), List.class);
     }
 
 ///**

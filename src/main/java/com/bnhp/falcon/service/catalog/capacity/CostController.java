@@ -70,6 +70,7 @@ public class CostController {
             if (aris_usage.containsKey(service.get("service_name"))) {
                 ServiceCost sc = new ServiceCost();
                 sc.setServiceName(service.get("service_name").toString());
+                sc.setServiceType(service.get("service_type").toString());
                 sc.setHelp(service.get("help").toString());
                 sc.setQuantity(Float.parseFloat(aris_usage.get(service.get("service_name")).toString()));
                 sc.setPricePerUnit(Float.parseFloat(service.get("unit_price").toString()));
