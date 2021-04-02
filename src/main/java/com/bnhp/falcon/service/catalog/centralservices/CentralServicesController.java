@@ -1,13 +1,9 @@
-package com.bnhp.falcon.service.catalog.servicedomains;
+package com.bnhp.falcon.service.catalog.centralservices;
 
-import com.bnhp.falcon.service.catalog.servers.Server;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.micrometer.core.instrument.util.IOUtils;
 import lombok.extern.slf4j.Slf4j;
-import org.jeasy.random.EasyRandom;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,11 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Slf4j
 @RestController
-public class ServiceDomainController {
+public class CentralServicesController {
 //    OpenShiftClient osClient = new DefaultOpenShiftClient();
 ////\
 //
@@ -36,21 +31,10 @@ public class ServiceDomainController {
 //        osClient = new DefaultOpenShiftClient(config);
 
 
-    @GetMapping("/service-domain/list")
+    @GetMapping("/central-services/list")
     public List<HashMap> getServers() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-       return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("service-domain-big.json").getInputStream()), List.class);
-    }
-    @GetMapping("/service-domain/network/{name}")
-    public List<HashMap> getNetworkForServiceDomain(@PathVariable String name) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-       return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("service-domain-network.json").getInputStream()), List.class);
-    }
-
-    @GetMapping("/service-domain/quota/{name}")
-    public List<HashMap> getQuotaForServiceDomain(@PathVariable String name) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-       return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("service-domain-quota.json").getInputStream()), List.class);
+       return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("central-services.json").getInputStream()), List.class);
     }
 
 ///**

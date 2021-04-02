@@ -1,0 +1,106 @@
+[
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "prod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "prod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "staging",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "staging",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "staging",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+{
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "preprod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+
+  {
+    "dns": "dns1",
+    "env": "prod",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "dev",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "dev",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "dev",
+    "name": "name1",
+    "address": "localhost:1203"
+  },
+  {
+    "dns": "dns1",
+    "env": "dev",
+    "name": "name1",
+    "address": "localhost:1203"
+  }
+
+]

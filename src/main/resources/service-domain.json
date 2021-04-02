@@ -17,6 +17,27 @@
       "ldap2",
       "ldap2"
     ],
+    "roles": [
+      {
+        "name": "yoni",
+        "username": "yoni",
+        "role": "architect"
+      },{
+        "name": "asdasd",
+        "username": "asdasd",
+        "role": "owner"
+      },
+      {
+        "name": "aaa",
+        "username": "bbb",
+        "role": "security"
+      },
+      {
+        "name": "hhh",
+        "username": "jjj",
+        "role": "security"
+      }
+    ],
     "source_project": "TD",
     "source_address": "asdasdk",
     "projects": [
@@ -120,6 +141,28 @@
       "ldap6",
       "ldap9",
       "ldapsdasdlkjdh3"
+    ],
+    "roles": [
+      {
+        "name": "yoni",
+        "username": "yoni",
+        "role": "architect"
+      },{
+        "name": "asdasd",
+        "username": "asdasd",
+        "email": "yoni@yon.om",
+        "role": "owner"
+      },
+      {
+        "name": "aaa",
+        "username": "bbb",
+        "role": "security"
+      },
+      {
+        "name": "hhh",
+        "username": "jjj",
+        "role": "security"
+      }
     ],
     "source_project": "TD",
     "source_address": "asdasdk",
@@ -225,6 +268,51 @@
       "Xb1djasfhf",
       "asdasdasdasdasd",
       ";ashkdshjhsfh"
+    ],
+    "roles": [
+      {
+        "name": "yoni",
+        "username": "yoni",
+        "role": "architect"
+      }, {
+        "name": "yoni",
+        "username": "yoni",
+        "role": "architect"
+      }, {
+        "name": "yoni",
+        "username": "yoni",
+        "role": "architect"
+      }, {
+        "name": "yoni",
+        "username": "yoni",
+        "role": "architect"
+      }, {
+        "name": "yoni",
+        "username": "yoni",
+        "role": "architect"
+      }, {
+        "name": "yoni",
+        "username": "yoni",
+        "role": "architect"
+      },
+      {
+        "name": "asdasd",
+        "username": "asdasd",
+        "email": "yoni@yon.om",
+        "role": "owner"
+      },
+      {
+        "name": "aaa",
+        "username": "bbb",
+        "role": "security"
+      },
+      {
+        "name": "hhh",
+        "username": "jjj",
+        "email": "yoni@yon.om",
+
+        "role": "security"
+      }
     ],
     "source_project": "TD",
     "source_address": "asdasdk",
