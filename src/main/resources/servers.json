@@ -9,7 +9,34 @@
     "products": []
   },
   {
-    "hostname": "pbxkubeapp02",
+    "hostname": "pbxkub2eapp02",
+    "ipaddress": "187.122.11.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Kubernetes",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "pbxku3beapp02",
+    "ipaddress": "187.122.11.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Kubernetes",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "pbx4kubeapp02",
+    "ipaddress": "187.122.11.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Kubernetes",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "pbxk5ubeapp02",
     "ipaddress": "187.122.11.121",
     "cpu": "4",
     "mem": "16",
@@ -45,7 +72,70 @@
     "products": []
   },
   {
-    "hostname": "xxx6",
+    "hostname": "xxx22",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "x1xx2",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "x1xx2",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xx1x6",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xx11x6",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xx111x6",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xx1111x6",
+    "ipaddress": "187.122.131.121",
+    "cpu": "4",
+    "mem": "16",
+    "group": "Jenkins",
+    "storage": "100",
+    "products": []
+  },
+  {
+    "hostname": "xx111111x6",
     "ipaddress": "187.122.131.121",
     "cpu": "4",
     "mem": "16",
