@@ -1,124 +1,35 @@
 [
-  {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "preprod",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "prod",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "prod",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "preprod",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "staging",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "staging",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "env": "staging",
-    "port": 2222,
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-{
-    "dns": "dns1",
-  "port": 2222,
-  "env": "preprod",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "preprod",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "env": "preprod",
-    "port": 2222,
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "preprod",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
-  {
-    "port": 2222,
-    "dns": "dns1",
-    "env": "preprod",
-    "name": "name1",
-    "address": "localhost:1203"
-  },
 
   {
-    "dns": "dns1",
-    "env": "prod",
-    "port": 2222,
-    "name": "name1",
-    "address": "localhost:1203"
+    "id": 1,
+    "name": "jwt",
+    "description": "JWT",
+    "environment": "dev",
+    "ips": "some_dns",
+    "port": "1212"
   },
   {
-    "dns": "dns1",
-    "env": "dev",
-    "port": 2222,
-    "name": "name1",
-    "address": "localhost:1203"
+    "id": 2,
+    "name": "jwt",
+    "description": "JWT",
+    "environment": "dev",
+    "ips": "some_dns",
+    "port": "1212"
   },
   {
-    "dns": "dns1",
-    "env": "dev",
-    "port": 2222,
-    "name": "name1",
-    "address": "localhost:1203"
+    "id": 3,
+    "name": "jwt",
+    "description": "JWT",
+    "environment": "dev",
+    "ips": "some_dns",
+    "port": "1212"
   },
   {
-    "dns": "dns1",
-    "port": 2222,
-    "env": "dev",
-    "name": "name1",
-    "address": "localhost:1203"
+    "id": 4,
+    "name": "jwt",
+    "description": "JWT",
+    "environment": "dev",
+    "ips": "some_dns",
+    "port": "1212"
   },
-  {
-    "dns": "dns1",
-    "port": 2222,
-
-    "env": "dev",
-    "name": "name1",
-    "address": "localhost:1203"
-  }
-
 ]

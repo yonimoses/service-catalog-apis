@@ -53,6 +53,12 @@ public class ServiceDomainController {
        return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("service-domain-quota.json").getInputStream()), List.class);
     }
 
+    @GetMapping("/events")
+    public List<HashMap> events() throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+       return  objectMapper.readValue(IOUtils.toString(new ClassPathResource("events.json").getInputStream()), List.class);
+    }
+
 ///**
 //GET /api/v1/query_range?query=kube_pod_labels%7Blabel_component%3D%22import-dashboards%22%7D&start=1616435221.363&end=1616525221.363&step=360&_=1616522057040 HTTP/1.1
 //Host: test-monitoring.192.168.99.100.nip.io
